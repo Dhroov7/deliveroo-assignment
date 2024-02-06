@@ -1,0 +1,19 @@
+{
+  "name": "deliveroo-assignment",
+  "version": "1.0.0",
+  "author": "Dhroov Gupta",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "nyc mocha test/index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "nyc": "^15.1.0",
+    "mocha": "^10.2.0"
+  }
+}
